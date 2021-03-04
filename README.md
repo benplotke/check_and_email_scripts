@@ -2,7 +2,7 @@
 
 A short python program which checks if external IP has changed and sends and email if it has
 
-I have a cron wich runs this every hour.
+I have a cron which runs this every hour.
 
 Fill in your credentials at the top.
 
