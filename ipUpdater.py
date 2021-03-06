@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-# if results from icanhazip.com differ from file lastip.txt, it updates lastip.txt and emails the new one
+
+
+# ABOUT
+#  A short python script that checks if the external ip has changed and emails me if it has
+#  I use a timer to run this once and hour
+#  I used a junk gmail account for the send. Because I'm sending in an unsecure fashion, I needed to turn off some gmail security settings to get it to work.
+
 
 import urllib.request
 import smtplib
